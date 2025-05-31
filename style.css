@@ -39,3 +39,77 @@ footer{
 
 }
 
+
+.social-links{
+    margin-top: 10px;
+    color: rgb(12, 12, 12);
+    text-decoration: solid;
+    font-weight: bold;
+
+}
+
+.social-links > a {
+    margin: 0 10px;
+    color: rgb(12, 12, 12);
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.social-links > a:hover{
+
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+}
+
+footer > p {
+    color: rgb(146, 31, 11);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 20px;
+
+}
+
+.project-card {
+    background-color: rgb(160, 219, 219);
+    border-left: 4px solid rgb(145, 22, 13);
+    padding: 3px;
+    border-radius: 8px;
+    transition:background-color 0.2s ease;
+    box-shadow:0 2px 5px yellow ;
+    width: 250px;
+
+}
+
+.project-card:hover{
+    transform: translateY(-9px);
+}
+
+.project-card > h3 {
+    margin-top:0;
+    color:rgb(24, 1, 1);
+
+}
+
+.project-card > p {
+    font-size: medium;
+    color: rgb(3, 44, 44);
+
+}
+
+.project-card > a {
+     display: inline-block;
+     padding: 8px 15px;
+     background-color: rgb(231, 141, 31);
+     color: rgb(10, 100, 179);
+     border:none;
+     border-radius:6px ;
+
+
+}
